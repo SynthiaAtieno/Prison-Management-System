@@ -1,13 +1,9 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', 'password', 'Prison_Management_System');
+$conn = mysqli_connect('localhost', 'root', 'password', 'prison_management_system');
 
-if($conn){
-    echo 'Connected';
+if(!$conn)
+{
+    echo "Connection failed";
 }
-else{
-    die("Connection failed: " . mysqli_connect_error());
-
-}
-
 ?>

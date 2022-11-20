@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/background1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 90%;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+.card {
+    margin-top:80px; 
+    text-align:left;
+    width:100%;
+    border:3px solid #367FA9;
+    padding:30px;
+    background:#fff;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    box-shadow: 0 0 4px #ccc; 
+    -webkit-box-shadow: 0 0 4px #ccc; 
+    -moz-box-shadow: 0 0 4px #ccc;
+}
+fieldset {
+    border:0;
+    height:30px;	
+    margin:3px 0;
+    background-color: #221f1f;
+}
+fieldset label {
+    display:block;
+    width:80px;
+    float:left;
+    font-weight:700;
+    color:#666;	
+    line-height:2.2em;
+}
+fieldset input {
+    float:left;
+    border:1px solid #ccc;	
+    height: 35px;
+    padding:3px;
+    margin-left: 2%;
+    width:220px;
+    font-size:12px;
+}
+
+#submit {
+    margin-top:10px;
+    text-align:center;
+    border: 1px solid #ccc;	
+    font-size: 15px;
+    background-color: transparent;
+}
+
